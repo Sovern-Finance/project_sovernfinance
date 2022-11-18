@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, gitbook  } from "../assets";
 
 export const navLinks = [
   {
@@ -7,39 +7,39 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "How It Works",
   },
   {
     id: "product",
-    title: "Product",
+    title: "How We Invest",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "About Me",
   },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: shield,
+    title: "Real Revenue",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "No ponzinomics, no token, all revenue is from real world businesses.",
   },
   {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    id: "feature-3",
+    icon: star,
+    title: "Monthly Airdrops",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "50% of all revenue that the businesses earn is airdropped to investors.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "An Ever-Growing Revenue Stream",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "30% of all monthly revenue is used to buy more businesses. Therefore increasing the monthly revenue over time. ",
   },
 ];
 
@@ -47,44 +47,30 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Let's use the blockchain in a way that empowers people financially.",
+    name: "Ethan Garza",
+    title: "Founder",
     img: people02,
   },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
+
+
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Businesses Owned",
+    value: "0",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Monthly Revenue",
+    value: "0",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Monthly Airdops",
+    value: "0",
   },
 ];
 
@@ -155,25 +141,21 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
+
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://sovern-finance-llc.gitbook.io/whitepaper/",
+  },
+  {
+    id: "social-media-1",
+    icon: twitter,
+    link: "https://twitter.com/SovernFinance",
+  },
+  {
+    id: "social-media-1",
+    icon: facebook,
+    link: "https://discord.gg/cGQSmSvyFW",
   },
 ];
 
