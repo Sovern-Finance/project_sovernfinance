@@ -6,12 +6,10 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Initial Funding Round Will<br className="sm:block hidden" /> Consist of 5,000 NFTs
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+        Only 5,000 NFTs will be available with a mint price of 250$. Only one round of funding will be done.
       </p>
 
       <Button styles={`mt-10`} />
